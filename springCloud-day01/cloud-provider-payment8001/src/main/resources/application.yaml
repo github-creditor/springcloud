@@ -16,7 +16,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.wenjie.springcloud   #所有entity别名类的包
-  configuration:
+  configuration:      #添加设置
     map-underscore-to-camel-case: true
 
 eureka:
